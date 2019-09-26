@@ -223,6 +223,6 @@ let enemies = people.filter(function(person){
 
 // Code Here
 
-let totallyAwesome = people.reduce(function(total, person){
-	return  total += person.awesomeLevel;
+let totallyAwesome = people.reduce(function(total, element){
+	return total + element.awesomeLevel;
 })
