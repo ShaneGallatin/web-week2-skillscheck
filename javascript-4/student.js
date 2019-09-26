@@ -61,7 +61,7 @@ function setColor(arr){
             arr[i] = "#4D4DFF";
         }
     }
-    background(arr[0], arr[1], arr[2]);
+    background("red", "black", "#4D4DFF");
 }
 
 //////////////////Step 5////////////////////
